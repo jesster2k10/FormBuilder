@@ -5,6 +5,7 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
 import android.support.design.widget.TextInputLayout;
 import android.text.Editable;
 import android.text.InputType;
@@ -16,9 +17,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
+
+import com.squareup.picasso.Picasso;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -249,6 +253,20 @@ public class FormBuilder {
                 viewMap.put(formElement.getTagOrToString(), editText);
                 addViewToView(textInputLayout, selectionEditText);
                 return textInputLayout;
+            case IMAGE:
+                ImageView imageView = new ImageView(context);
+                imageView.setEnabled(formElement.getEnabled());
+
+                if (formElement.getImage() != null) {
+                    imageView.setImageBitmap(formElement.getImage());
+                }
+
+                if (formElement.getImageURL() != null) {
+                    Picasso.with(context).load(formElement.getImageURL()).into(imageView);
+                }
+
+                viewMap.put(formElement.getTagOrToString(), imageView);
+                return imageView;
             default:
                 return null;
         }

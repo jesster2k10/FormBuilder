@@ -1,5 +1,7 @@
 package com.dariopellegrini.formbuilder;
 
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.widget.LinearLayout;
 
 import java.util.ArrayList;
@@ -14,7 +16,7 @@ public class FormElement extends FormObject {
 
     public enum Type {
         TEXT, TEXTVIEW, EMAIL, PASSWORD, PHONE, NUMBER, URL, SPINNER, ZIP,
-        SELECTION, MULTIPLE_SELECTION, DATE, TIME
+        SELECTION, MULTIPLE_SELECTION, DATE, TIME, IMAGE, VIDEO, SWITCH,
     }
 
     private String tag;
@@ -26,6 +28,10 @@ public class FormElement extends FormObject {
     private List<String> optionsSelected; // list of selected options for single and multi picker
     private boolean isRequired;
     private boolean isEnabled;
+    private boolean switchValue; // value for the switch
+    private Uri imageURL; // url for the image
+    private Uri videoURL; // url for the video
+    private Bitmap image; // raw image value
     private String dateFormat;
     private String timeFormat;
     private String dateTimeFormat;
@@ -50,6 +56,38 @@ public class FormElement extends FormObject {
     public FormElement setTag(String tag) {
         this.tag = tag;
         return this;
+    }
+
+    public void setImage(Bitmap image) {
+        this.image = image;
+    }
+
+    public Bitmap getImage() {
+        return image;
+    }
+
+    public void setImageURL(String imageURL) {
+        this.imageURL = Uri.parse(imageURL);
+    }
+
+    public Uri getImageURL() {
+        return imageURL;
+    }
+
+    public void setVideoURL(String videoURL) {
+        this.videoURL = Uri.parse(videoURL);
+    }
+
+    public Uri getVideoURL() {
+        return videoURL;
+    }
+
+    public void setSwitchValue(boolean switchValue) {
+        this.switchValue = switchValue;
+    }
+
+    public boolean getSwitchValue() {
+        return this.switchValue;
     }
 
     public String getTagOrToString() {
