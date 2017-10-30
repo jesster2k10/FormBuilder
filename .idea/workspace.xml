@@ -36,37 +36,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FormElement.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FormElement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
               <folding>
-                <element signature="e#1759#1760#0" expanded="true" />
-                <element signature="e#1793#1794#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
                 <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1901#1902#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-                <element signature="e#2015#2016#0" expanded="true" />
-                <element signature="e#2063#2064#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-                <element signature="e#2177#2178#0" expanded="true" />
-                <element signature="e#2232#2233#0" expanded="true" />
-                <element signature="e#2278#2279#0" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2356#2357#0" expanded="true" />
+                <element signature="e#1881#1882#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#2071#2072#0" expanded="true" />
+                <element signature="e#2230#2231#0" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+                <element signature="e#2316#2317#0" expanded="true" />
+                <element signature="e#2362#2363#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
+                <element signature="e#2440#2441#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="91">
               <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
               <folding />
             </state>
@@ -2061,8 +2055,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/formbuilder/build.gradle" />
-        <option value="$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormElement.java" />
         <option value="$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormBuilder.java" />
+        <option value="$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormElement.java" />
       </list>
     </option>
   </component>
@@ -2281,8 +2275,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="997" height="709" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="997" height="709" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2293,7 +2287,7 @@
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288364" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2329,31 +2323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2015#2016#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80">
@@ -2372,9 +2341,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="91">
           <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formbuilder/src/main/java/com/dariopellegrini/formbuilder/FormElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding>
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2230#2231#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2440#2441#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
