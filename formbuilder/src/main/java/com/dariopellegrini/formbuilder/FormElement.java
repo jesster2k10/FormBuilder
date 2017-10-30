@@ -58,24 +58,27 @@ public class FormElement extends FormObject {
         return this;
     }
 
-    public void setImage(Bitmap image) {
+    public FormElement setImage(Bitmap image) {
         this.image = image;
+        return this;
     }
 
     public Bitmap getImage() {
         return image;
     }
 
-    public void setImageURL(String imageURL) {
+    public FormElement setImageURL(String imageURL) {
         this.imageURL = Uri.parse(imageURL);
+        return this;
     }
 
     public Uri getImageURL() {
         return imageURL;
     }
 
-    public void setVideoURL(String videoURL) {
+    public FormElement setVideoURL(String videoURL) {
         this.videoURL = Uri.parse(videoURL);
+        return this;
     }
 
     public Uri getVideoURL() {
